@@ -1,10 +1,3 @@
-try:
-    file = open("message.txt", "x")
-    print("File created successfully.")
-    file.close()
-except FileExistsError:
-    print("Error: File already exists.")
-
 while True:
     print("\nSimple Messaging App")
     print("1. Send a message")
